@@ -45,23 +45,62 @@ h2 {
     font-family: New Courier;
 }
 
-div.Outer {
-    border-left: 250px;
-    border-right:2250px;
-    background-color:rgba(163, 160, 112, 0.719);
-    
-}
-
-div.InnerLeft {
-    width: 50%;
+.flex-container1 {
+    display: flex;
+    width: 625px;
+    height: 175px;
+    flex-direction: row;
     position: relative;
-    background: #CCCCCC; 
-    float: left;
+    left: 27%;
+    align-content: space-between;   
+    background-color: gainsboro; 
+    justify-content: center;
+    align-items: center;
 }
 
-    div.InnerRight {
-        width: 49%;
-        position: relative;
-        background: #AAAAFF;
-        float: right;
+
+.flex-container1>div {
+    background-color: aqua;
+    flex-direction: row;
+    position: relative;
+    bottom: 10px;
+    top:100px
+    width: 250px;    
+    margin: 10px;  
+    text-align: left;
+    line-height: 25px;
+    font-size: 15px;
 }
+
+.flex-container2 {
+    display: flex;
+    width: 625px;
+    height: 175px;
+    flex-direction: row;
+    position: relative;
+    left: 27%;
+    align-content: space-between;   
+    background-color: gainsboro; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-container2>div1 {
+    background-color: aqua;
+    flex-direction: row;
+    position: relative;
+    bottom: 10px;
+    top:10px
+    width: 250px;
+    margin: 10px;  
+    text-align: left;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+
+
+
+
+
