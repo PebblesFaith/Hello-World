@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(215, 253, 236);
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1340px;
+    max-height: 625px;
+}
+
+.titlecontainer {
+    background-color: rgb(212, 173, 207);
+    border: 5px solid rgb(212, 173, 207);
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.flex-container1 {
+    background-color: rgb(212, 173, 207);
+    max-width: 100%;
+    max-width: 100%;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    font-style: italic;
+    color: rgb(133, 96, 132);
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;    
+}
+
+.paracontainer {
+    background-color: rgb(227, 238, 233);
+    border: 5px solid rgb(227, 238, 233);
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 165px;    
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;   
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left; 
+    color: rgb(133, 96, 132);    
+}
+
+.olcontainer  {
+    background-color: rgb(227, 238, 233);
+    border: 5px solid rgb(227, 238, 233);;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+    line-height: 20px;
+    text-align: left;
+    color: rgb(133, 96, 132);   
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;   
+    height: 700px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: rgb(227, 238, 233);
+}
+
+.flex-container2>div {
+    background-color: rgb(215, 253, 236);
+    flex-direction: row;
+    position: relative;
+    bottom: 10px;
+    top:25px;
+    width: 360px;   
+    height: 600px; 
+    margin: 10px;  
+    text-align: left;
+    line-height: 15px;
+    font-size: 15px;
+    justify-content: center;   
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgb(133, 96, 132);
+}
+
+
