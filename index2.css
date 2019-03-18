@@ -64,7 +64,7 @@ h2 {
     flex-direction: row;
     position: relative;
     bottom: 10px;
-    top:100px
+    top:100px;
     width: 250px;    
     margin: 10px;  
     text-align: left;
@@ -91,7 +91,7 @@ h2 {
     flex-direction: row;
     position: relative;
     bottom: 10px;
-    top:10px
+    top:10px;
     width: 250px;
     margin: 10px;  
     text-align: left;
