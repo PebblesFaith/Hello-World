@@ -1,0 +1,43 @@
+body{
+    background-color: #4ABDAC;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+  }
+  header {
+    background-color: #F7B733;
+  }
+  
+  h1 {
+
+    position: relative;
+    left:  50px;
+    height: 40px;
+
+    
+
+  }
+
+  h2 {
+    position: relative;
+    left:  1000px;
+    height: 40px;
+  
+  
+  #navigation {
+  
+  }
+  
+  #navigation li:hover {
+  
+  }
+  #content {
+    background-color: #DFDCE3;
+  
+  }
+  
+  div {
+    background-color: #FC4A1A;
+  
+  }
+  
+  Resources
