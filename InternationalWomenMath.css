@@ -5,68 +5,62 @@ body {
     max-height: 625px;
 }
 
-.titlecontainer {
+.banner1 {
     background-color: rgb(212, 173, 207);
-    border: 5px solid rgb(212, 173, 207);
-    width: 1000px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 3vw;
+    font-style: italic; 
+    max-width: 1400px;
     height: 150px;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 165px;
+    position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: center;    
-}
-
-.flex-container1 {
-    background-color: rgb(212, 173, 207);
-    max-width: 100%;
-    max-width: 100%;
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3vw;
-    font-style: italic;
-    color: rgb(133, 96, 132);
-    text-align: center;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 2 auto;
     justify-content: center;
-    margin-top: 50px;    
+    color: rgb(133, 96, 132);
+    margin-top: 100px;
+    margin-left: 0px;
 }
 
 .paracontainer {
     background-color: rgb(227, 238, 233);
-    border: 5px solid rgb(227, 238, 233);
-    width: 1000px;
-    height: 100px;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 165px;    
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 1.3vw;  
+    max-width: 1400px;
+    height: 150px;
+    text-align: left;
+    position: relative;
     display: flex;
-    flex-wrap: wrap;  
-    justify-content: center;   
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 18px;
-    line-height: 21px;
-    text-align: left; 
-    color: rgb(133, 96, 132);    
+    flex-direction: column;
+    align-items: 250px;
+    flex: 1 2 auto;
+    justify-content: center;
+    color: rgb(133, 96, 132);
+    border: 3px solid rgb(133, 96, 132);;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    line-height: 25px;    
 }
 
 .olcontainer  {
     background-color: rgb(227, 238, 233);
-    border: 5px solid rgb(227, 238, 233);;
-    width: 1000px;
-    height: 100px;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 165px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;   
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 18px;
-    line-height: 20px;
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 1.2vw;  
+    max-width: 1400px;
+    height: 150px;
     text-align: left;
-    color: rgb(133, 96, 132);   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 2 auto;
+    justify-content: center;
+    color: rgb(133, 96, 132);
+    margin-top: 0px;
+    margin-left: 0px 
 }
 
 .flex-container2 {
@@ -96,3 +90,18 @@ body {
 }
 
 
+.nav1 {
+    background-color: rgb(212, 173, 207);
+    flex-direction: row;
+    position: relative;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: rgb(133, 96, 132);
+    font-family: New Courier;
+}
