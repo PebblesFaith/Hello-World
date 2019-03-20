@@ -39,17 +39,18 @@ body {
     justify-content: center;
     color: rgb(133, 96, 132);
     
-    margin: auto;
+   
     margin-top: 0px;
     margin-left: 0px;
     line-height: 25px; 
     
 }
 
-.p1 {
+.p1  {
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 25px;
+    
 }
 
 .olcontainer  {
