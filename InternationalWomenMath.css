@@ -2,7 +2,7 @@ body {
     background-color: rgb(215, 253, 236);
     font-family: 'Times New Roman', Times, serif;
     max-width: 1340px;
-    max-height: 625px;
+    max-height: 1000px;
 }
 
 .banner1 {
@@ -11,7 +11,7 @@ body {
     font-size: 3vw;
     font-style: italic; 
     max-width: 1400px;
-    height: 150px;
+    height: 175px;
     text-align: center;
     position: relative;
     display: flex;
@@ -29,7 +29,7 @@ body {
     font-family: 'Book Antiqua', Times, serif;
     font-size: 1.3vw;  
     max-width: 1400px;
-    height: 150px;
+    height: 160px;
     text-align: left;
     position: relative;
     display: flex;
@@ -38,11 +38,18 @@ body {
     flex: 1 2 auto;
     justify-content: center;
     color: rgb(133, 96, 132);
-    border: 3px solid rgb(133, 96, 132);;
+    
     margin: auto;
     margin-top: 0px;
     margin-left: 0px;
-    line-height: 25px;    
+    line-height: 25px; 
+    
+}
+
+.p1 {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 25px;
 }
 
 .olcontainer  {
@@ -63,45 +70,121 @@ body {
     margin-left: 0px 
 }
 
-.flex-container2 {
+.flex-container2 {   
     display: flex;
-    justify-content: center;   
-    height: 700px;
+    justify-content: center;     
+    height: 750px;
     flex-wrap: wrap;
     align-content: space-between;
     background-color: rgb(227, 238, 233);
+    border:1px  rgb(133, 96, 132);
+    margin: 15px;
+    padding:5px; 
 }
 
-.flex-container2>div {
+.flex-container2 > div {
+    margin: 15px; 
     background-color: rgb(215, 253, 236);
     flex-direction: row;
     position: relative;
     bottom: 10px;
     top:25px;
     width: 360px;   
-    height: 600px; 
-    margin: 10px;  
-    text-align: left;
+    height: 750px; 
     line-height: 15px;
     font-size: 15px;
     justify-content: center;   
     font-family: 'Times New Roman', Times, serif; 
     color: rgb(133, 96, 132);
+  
+    flex:1 1 auto;
+    border:1px rgb(133, 96, 132) solid;
+    text-align: left 15px;
 }
 
 
-.nav1 {
+.button1 {
+    border: none;
     background-color: rgb(212, 173, 207);
-    flex-direction: row;
-    position: relative;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    display: inline-block;
+    padding: 14px 28px;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
-    color: rgb(133, 96, 132);
-    font-family: New Courier;
+    display: inline-block;
+    color: rgb(133, 96, 132); 
+    margin-left: 100px;     
 }
+
+.button1:hover {
+    background: #eeeeee;
+}
+.Darden {
+    color: rgb(133, 96, 132);
+}
+
+
+.button2 {
+    border: none;
+    background-color: rgb(212, 173, 207);
+    padding: 14px 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(133, 96, 132); 
+    margin-left: 100px;     
+}
+
+.button2:hover {
+    background: #eeeeee;
+}
+.Lovelace {
+    color: rgb(133, 96, 132);
+}
+
+
+.button3 {
+    border: none;
+    background-color: rgb(212, 173, 207);
+    padding: 14px 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: rgb(133, 96, 132); 
+    margin-left: 100px;     
+}
+
+.button3:hover {
+    background: #eeeeee;
+}
+.Jitomirskaya {
+    color: rgb(133, 96, 132);
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 15px;
+}
+
+
+h5 {
+    margin-left: 15px;
+}
+
+
+strong {
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
