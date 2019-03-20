@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(215, 253, 236);
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1340px;
+    max-height: 1000px;
+}
+
+.banner1 {
+    background-color: rgb(212, 173, 207);
+    font-family: 'Book Antiqua', Times, serif;
+    font-size: 3vw;
+    font-style: italic; 
+    max-width: 1400px;
+    height: 175px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 2 auto;
+    justify-content: center;
+    color: rgb(133, 96, 132);
+    margin-top: 100px;
+    margin-left: 0px;
+}
