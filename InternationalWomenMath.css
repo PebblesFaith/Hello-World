@@ -76,7 +76,7 @@ body {
     margin-left: 0px 
 }
 
-/* Assigned selector to element division to set outer flexbox container and background collor.*/
+/* Assigned selector to element division to set outer flexbox container and background color.*/
 .flex-container2 {   
     display: flex;
     justify-content: center;     
@@ -110,7 +110,7 @@ body {
     text-align: left 15px;
 }
 
-/* Assigned selector button 1 to the 1st child flexbox contrainer. */
+/* Assigned selector button 1 to the 1st child flexbox container. */
 .button1 {
     border: none;
     background-color: rgb(212, 173, 207);
@@ -130,7 +130,7 @@ body {
     color: rgb(133, 96, 132);
 }
 
-/* Assigned selector button 2 to the 2nd child flexbox contrainer. */
+/* Assigned selector button 2 to the 2nd child flexbox container. */
 .button2 {
     border: none;
     background-color: rgb(212, 173, 207);
@@ -150,7 +150,7 @@ body {
     color: rgb(133, 96, 132);
 }
 
-/* Assigned selector button 3 to the 3rd child flexbox contrainer. */
+/* Assigned selector button 3 to the 3rd child flexbox container. */
 .button3 {
     border: none;
     background-color: rgb(212, 173, 207);
