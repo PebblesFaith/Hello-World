@@ -1,0 +1,26 @@
+form {
+    width: 300px;
+}
+
+input {
+    width: 300px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+    border: 1px solid rgb(255, 0, 0);
+}
+
+::placeholder {
+    color: red;
+}
